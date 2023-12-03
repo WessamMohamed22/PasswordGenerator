@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background: whitesmoke;
+}
+
+.layout1{
+    font-family:  'Karla', sans-serif;
+    background: #b04682;
+    height: 550px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    border: 8px solid #f0e6ef;
+    border-radius: 30px;
+}
+
+.layout2{
+    height: 320px;
+    width: 446px;
+    margin-top: 80px;
+}
+
+#heading{
+     color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    margin: 80px auto 0;
+}
+
+.h1-span{
+    color: #edafb8;
+}
+
+#sub-heading{ 
+     color:#f5e6e8;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 5px auto;
+    font-weight: 400;
+    
+}
+.layout3{
+    margin: 35px 0 35px 0;
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+#features {
+    color: white;
+    margin: 0 0 10px 0;
+}
+#char-input {
+    width: 35px;
+    text-align: center;
+    color: inherit;
+    background-color: #f0a6ca;
+    border: 1px solid white;
+    margin: 0 0 0 5px;
+}
+#check-btn{
+    height: 20px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+
+button{
+
+    background-color: #edafb8;
+    padding: 9px 15px;
+    color:  #FFFFFF;
+    font-family: inherit;
+    font-weight: 400;
+    border: none;
+    border-radius:5px;
+    margin: 0 5px 0 0;
+}
+
+.line {
+    
+     border-bottom: 1px solid #edafb8;
+    width: 445px;
+}
+#hero-pass {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+
+}
+
+.pw-screen {
+    width: 210px;
+    height: 39px;
+    background-color: #edafb8;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 0;
+    margin: 0 15px;
+    
+}
+
+
+
